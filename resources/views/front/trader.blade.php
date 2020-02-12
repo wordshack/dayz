@@ -31,7 +31,9 @@
                                 <td>{{$item->traderCat}}</td>
                                 <td>
                                     <button class="btn-success"><i class="fa fa-edit"></i></button>
-                                    <button class="btnico-danger"><i class="fa fa-trash"></i></button>
+                                    <button type="button" class="btn btn-danger" aria-label="Left Align">
+                                        <span class="fa fa-trash fa-lg" aria-hidden="true"></span>
+                                    </button>
                                 </td>
                             </tr>
                             @endforeach
