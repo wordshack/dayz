@@ -13,6 +13,7 @@
                             <thead>
                             <tr>
                                 <th>Nombre</th>
+                                <th>Categoria</th>
                                 <th>Compra</th>
                                 <th>Venta</th>
                                 <th>Cantidad</th>
@@ -22,6 +23,7 @@
                             @foreach($Trade as $item)
                             <tr>
                                 <td>{{$item->name}}</td>
+                                <td>{{$item->subtype}}</td>
                                 <td>{{$item->buyprice}}</td>
                                 <td>{{$item->sellprice}}</td>
                                 <td>{{$item->traderCat}}</td>
