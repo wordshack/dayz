@@ -33,7 +33,7 @@
                                     <td>{{$item->traderCat}}</td>
                                     <td>
                                         <a class="btn btn-danger" href="#">
-                                            <i class="fa-trash fa-th-large"></i> Delete</a>
+                                            <i class="fa-trash fa-th-large"></i> Eliminar</a>
                                     </td>
                                 </tr>
                             @endforeach
