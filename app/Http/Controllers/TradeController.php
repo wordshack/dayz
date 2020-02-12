@@ -9,7 +9,7 @@ class TradeController extends Controller
 {
     public function index()
     {
-        $Trade=Trade::all();
+        $Trade=Trade::select('name,sellprice,buyprice,traderCat')->get();
         return view('front.trader',compact("Trade"));
     }
 }
