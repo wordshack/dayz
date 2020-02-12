@@ -13,8 +13,8 @@
                             <thead>
                             <tr>
                                 <th>Nombre</th>
-                                <th>Venta</th>
                                 <th>Compra</th>
+                                <th>Venta</th>
                                 <th>Cantidad</th>
                             </tr>
                             </thead>
@@ -22,8 +22,8 @@
                             @foreach($Trade as $item)
                             <tr>
                                 <td>{{$item->name}}</td>
-                                <td>{{$item->sellprice}}</td>
                                 <td>{{$item->buyprice}}</td>
+                                <td>{{$item->sellprice}}</td>
                                 <td>{{$item->traderCat}}</td>
 {{--                                <td><span class="label label-danger">admin</span></td>--}}
                             </tr>
