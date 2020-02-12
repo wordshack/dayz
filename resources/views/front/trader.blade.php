@@ -8,6 +8,7 @@
             <div class="card">
                 <div class="card-body">
                     <h4 class="card-title">Trader</h4>
+                    <h6 class="card-subtitle">*Cantidad * significa valor máximo; Cantidad V significa Vehículo; Cantidad VNK significa Vehículo sin Llave; Cantidad M significa revista; La cantidad W significa arma; Cantidad S significa carne Steack; Cantidad K significa duplicación de clave</h6>
                     <div class="table-responsive">
                         <table class="table">
                             <thead>
