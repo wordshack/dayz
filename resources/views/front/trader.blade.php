@@ -18,6 +18,7 @@
                                 <th>Compra</th>
                                 <th>Venta</th>
                                 <th>Cantidad</th>
+                                <th></th>
                             </tr>
                             </thead>
                             <tbody>
@@ -28,7 +29,10 @@
                                 <td>{{$item->buyprice}}</td>
                                 <td>{{$item->sellprice}}</td>
                                 <td>{{$item->traderCat}}</td>
-{{--                                <td><span class="label label-danger">admin</span></td>--}}
+                                <td>
+                                    <button class="btn-success"><i class="fa fa-edit"></i></button>
+                                    <button class="btn-danger"><i class="fa fa-trash"></i></button>
+                                </td>
                             </tr>
                             @endforeach
                             </tbody>
