@@ -10,7 +10,7 @@ class TradeController extends Controller
     public function index()
     {
         $Trade=Type::select('name','sellprice','buyprice','traderCat')
-            ->where('sellprice','!=','-1')->
+            ->where('buyprice','!=','-1')->
             get();
         return view('front.trader',compact("Trade"));
     }
