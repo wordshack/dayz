@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45288518-81f1-470a-b26f-3d728ff3c4aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vendor.zip" afterDir="false" />
-    </list>
+    <list default="true" id="45288518-81f1-470a-b26f-3d728ff3c4aa" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +184,7 @@
       <updated>1581454106116</updated>
       <workItem from="1581454107421" duration="10538000" />
       <workItem from="1581481301975" duration="20131000" />
-      <workItem from="1581532083694" duration="14658000" />
+      <workItem from="1581532083694" duration="15251000" />
     </task>
     <servers />
   </component>
