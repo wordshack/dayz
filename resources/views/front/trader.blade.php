@@ -20,6 +20,7 @@
                                 <th>Compra</th>
                                 <th>Venta</th>
                                 <th>Cantidad</th>
+                                <th>Mod</th>
                                 <th></th>
                             </tr>
                             </thead>
@@ -31,6 +32,7 @@
                                     <td>{{$item->buyprice}}</td>
                                     <td>{{$item->sellprice}}</td>
                                     <td>{{$item->traderCat}}</td>
+                                    <td>{{$item->mods}}</td>
                                     <td>
                                         <button class="btn btn-warning"><i class="fa fa-edit"></i></button>
                                         <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
