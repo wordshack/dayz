@@ -30,8 +30,8 @@
                                 <td>{{$item->sellprice}}</td>
                                 <td>{{$item->traderCat}}</td>
                                 <td>
-                                    <button class="btn-success" style="padding: 12px 16px;"><i class="fa fa-edit"></i></button>
-                                    <button class="btn-danger" style="padding: 12px 16px;"><i class="fa fa-trash"></i></button>
+                                    <button class="btn-success"><i class="fa fa-edit"></i></button>
+                                    <button class="btnico-danger"><i class="fa fa-trash"></i></button>
                                 </td>
                             </tr>
                             @endforeach
