@@ -32,8 +32,7 @@
                                     <td>{{$item->sellprice}}</td>
                                     <td>{{$item->traderCat}}</td>
                                     <td>
-                                        <a class="btn btn-danger" href="#">
-                                            <i class="fa-trash"></i> Eliminar</a>
+                                        <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
                                     </td>
                                 </tr>
                             @endforeach
