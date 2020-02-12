@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Trade extends Model
+class Type extends Model
 {
     protected $primaryKey="name";
     public $incrementing = false;
