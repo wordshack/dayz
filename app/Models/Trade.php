@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Trade extends Model
 {
     protected $primaryKey="name";
+    public $incrementing = false;
     public $timestamps=false;
     protected $table="items";
     protected $fillable=['name','category','type','lifetime','quantmin','nominal','cost','quantmax','min','restock','Military','Prison','School','Coast','Village','Industrial','Medic','Police',

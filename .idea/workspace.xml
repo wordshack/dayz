@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45288518-81f1-470a-b26f-3d728ff3c4aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TradeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TradeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Trade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Trade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +155,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581454106116</updated>
       <workItem from="1581454107421" duration="10538000" />
-      <workItem from="1581481301975" duration="1251000" />
+      <workItem from="1581481301975" duration="1414000" />
     </task>
     <servers />
   </component>
