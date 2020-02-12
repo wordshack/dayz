@@ -2,120 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45288518-81f1-470a-b26f-3d728ff3c4aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/DayzController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/.npmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/fonts/fontawesome-webfont-old.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/less/extras.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/less/spinning.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/scss/_extras.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/scss/_spinning.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/old/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/font-awesome/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/themify-icons/fonts/themify.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/themify-icons/fonts/themify.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/themify-icons/fonts/themify.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/themify-icons/fonts/themify.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/themify-icons/ie7/ie7.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/themify-icons/ie7/ie7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/themify-icons/themify-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/iconos/themify-icons/themify-icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap-4.1/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap-4.1/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/bootstrap-4.1/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/select2/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/select2/select2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/api/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/TraderComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/items/TraderItems.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/modal/ModalAddComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/modal/ModalDeleteComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/modal/ModalEditComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/plugins/event-bus.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TradeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TradeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/trader.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/trader.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/Frontend/parts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/Frontend/parts/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/Frontend/parts/scripts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/Frontend/parts/scripts.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor.zip" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -266,11 +153,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.production">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name="production" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="production" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.production" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -284,7 +186,7 @@
       <updated>1581454106116</updated>
       <workItem from="1581454107421" duration="10538000" />
       <workItem from="1581481301975" duration="20131000" />
-      <workItem from="1581532083694" duration="14395000" />
+      <workItem from="1581532083694" duration="14658000" />
     </task>
     <servers />
   </component>
