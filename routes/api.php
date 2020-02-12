@@ -13,6 +13,9 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+Route::get('v1/trader','Api\DayzController@getTrader');
+Route::get('v1/allitem','Api\DayzController@getItemsAll');
+Route::get('v1/finditem/{item}','Api\DayzController@getFindItem');
+Route::get('v1/trader/categoria','Api\DayzController@getCategoriaTrader');
+Route::post('v1/trader/update','Api\DayzController@setUpdateTrader');
+Route::post('v1/trader/delete','Api\DayzController@setDeleteTrader');

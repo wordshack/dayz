@@ -9,10 +9,6 @@ class TradeController extends Controller
 {
     public function index()
     {
-        $Trade=Type::select('name','subtype','sellprice','buyprice','traderCat',"mods")
-            ->where('buyprice','!=','-1')
-            ->orderBy('subtype','asc')
-            ->get();
-        return view('front.trader',compact("Trade"));
+        return view('front.trader');
     }
 }
