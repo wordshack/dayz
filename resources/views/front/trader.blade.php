@@ -32,6 +32,7 @@
                                     <td>{{$item->sellprice}}</td>
                                     <td>{{$item->traderCat}}</td>
                                     <td>
+                                        <button class="btn btn-warning"><i class="fa fa-edit"></i></button>
                                         <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
                                     </td>
                                 </tr>
