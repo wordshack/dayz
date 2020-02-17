@@ -1,14 +1,12 @@
 <template>
     <tr>
         <td>{{item.name}}</td>
-        <td>{{item.subtype}}</td>
-        <td>{{item.buyprice}}</td>
-        <td>{{item.sellprice}}</td>
-        <td>{{item.traderCat}}</td>
+        <td>{{item.nominal}}</td>
+        <td>{{item.category}}</td>
         <td>{{item.mods}}</td>
         <td>
             <button class="btn btn-info" @click="show()"><i class="fa fa-edit"></i></button>
-            <button class="btn btn-danger"  @click="showDelete"><i class="fa fa-trash"></i></button>
+<!--            <button class="btn btn-danger"  @click="showDelete"><i class="fa fa-trash"></i></button>-->
         </td>
     </tr>
 </template>
@@ -23,10 +21,7 @@
             show () {
                this.$modal.show(ModalEditComponent, {
                    name:this.item.name,
-                   subtype:this.item.subtype,
-                   buyprice:this.item.buyprice,
-                   sellprice:this.item.sellprice,
-                   traderCat:this.item.traderCat
+                   nominal:this.item.nominal
                }, {
                    height: 'auto'
                });

@@ -10,9 +10,8 @@ class DayzController extends Controller
 {
     public function getTrader()
     {
-        $trade=Type::select('name','subtype','sellprice','buyprice','traderCat',"mods")
-            ->where('buyprice','!=','-1')
-            ->orderBy('subtype','asc')
+        $trade=Type::select('name','nominal','category',"mods")
+            ->orderBy('name','asc')
             ->get();
 
         return $trade;
@@ -20,9 +19,8 @@ class DayzController extends Controller
 
     public function getItemsAll()
     {
-        $trade=Type::select('name',"mods","buyprice")
-            ->where('buyprice','=','-1')
-            ->orderBy('mods','asc')
+        $trade=Type::select('name','nominal','category',"mods")
+            ->orderBy('name','asc')
             ->get();
 
         return $trade;
@@ -48,10 +46,7 @@ class DayzController extends Controller
 
     public function setUpdateTrader(Request $request){
         $trade=Type::findOrFail($request->name);
-        $trade->subtype=$request->subtype;
-        $trade->buyprice=$request->buyprice;
-        $trade->sellprice=$request->sellprice;
-        $trade->traderCat=$request->traderCat;
+        $trade->nominal=$request->nominal;
         $trade->save();
     }
 

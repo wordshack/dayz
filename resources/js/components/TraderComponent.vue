@@ -7,15 +7,13 @@
                     Cantidad VNK significa Vehículo sin Llave; Cantidad M significa revista; La cantidad W significa
                     arma; Cantidad S significa carne Steack; Cantidad K significa duplicación de clave</h6>
                 <div class="table-responsive">
-                    <button type="button" @click="showAdd" class="btn btn-success col-sm-12">Agregar a Trader</button>
+<!--                    <button type="button" @click="showAdd" class="btn btn-success col-sm-12">Agregar a Trader</button>-->
                     <table class="table">
                         <thead>
                         <tr>
                             <th>Nombre</th>
+                            <th>Nominal</th>
                             <th>Categoria</th>
-                            <th>Compra</th>
-                            <th>Venta</th>
-                            <th>Cantidad</th>
                             <th>Mod</th>
                             <th></th>
                         </tr>

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45288518-81f1-470a-b26f-3d728ff3c4aa" name="Default Changelist" comment="" />
+    <list default="true" id="45288518-81f1-470a-b26f-3d728ff3c4aa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/DayzController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/DayzController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/TraderComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/TraderComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/items/TraderItems.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/items/TraderItems.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/modal/ModalEditComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/modal/ModalEditComponent.vue" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +191,9 @@
       <updated>1581454106116</updated>
       <workItem from="1581454107421" duration="10538000" />
       <workItem from="1581481301975" duration="20131000" />
-      <workItem from="1581532083694" duration="15251000" />
+      <workItem from="1581532083694" duration="15794000" />
+      <workItem from="1581554661999" duration="894000" />
+      <workItem from="1581978085503" duration="1120000" />
     </task>
     <servers />
   </component>

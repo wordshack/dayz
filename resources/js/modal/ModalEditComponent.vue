@@ -16,27 +16,9 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="subtype" class="col-form-label">Categoria:</label>
-                    <div class="col-sm-10" id="subtype" >
-                        <Select2 v-if="visibleCategoria" name="subtype" v-model="categoriaSelect" :options="categoria"/>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="buyprice" class="col-form-label">Compra:</label>
+                    <label for="nominal" class="col-form-label">Nominal:</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" name="buyprice" v-model="pbuyprice" id="buyprice" >
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="sellprice" class="col-form-label">Venta:</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" name="sellprice" v-model="psellprice" id="sellprice" >
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="traderCat" class="col-form-label">Cantidad:</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" name="traderCat" v-model="ptraderCat" id="traderCat" >
+                        <input type="text" class="form-control" name="nominal" v-model="pnominal" id="nominal" >
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -54,7 +36,7 @@
 
     export default {
         name: "ModalEditComponent",
-        props: ['name', 'subtype', 'buyprice', 'sellprice', 'traderCat'],
+        props: ['name', 'nominal'],
         data() {
             return {
                 csrf: document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
@@ -63,9 +45,7 @@
                 categoriaSelect:"",
                 visibleCategoria:false,
                 pname:this.name,
-                pbuyprice:this.buyprice,
-                psellprice:this.sellprice,
-                ptraderCat:this.traderCat,
+                pnominal:this.nominal,
             }
         },
         methods:{
@@ -89,10 +69,7 @@
                 this.axios.post(api.URLUpdateTrade, {
                     _token:this.csrf,
                     name:this.pname,
-                    subtype:this.categoriaSelect,
-                    buyprice:this.pbuyprice,
-                    sellprice:this.psellprice,
-                    traderCat:this.ptraderCat
+                    nominal:this.pnominal,
                 })
                     .then(function (response) {
                         console.log(response.data);
